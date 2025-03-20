@@ -1,0 +1,24 @@
+# Ignore everything
+*
+
+# Whitelist (do not ignore) specific files and directories
+!.gitignore
+!Position Sensor.exe
+!Position Sensor.ini
+
+# Ensure directories are tracked
+!Modules/
+!data/
+
+# Keep specific files inside "data/"
+!data/AS5x7y.dll
+!data/GCSTranslator.dll
+!data/lvdaqmx.chm
+!data/nisyscfg.chm
+!data/NI_DC_Power_Supplies_Help.chm
+!data/ScintillaNET.dll
+!data/Windows7Taskbar_LV9.dll
+
+# Ensure "Settings/" directory is tracked
+!Settings/
+!Settings/Updater.esav
