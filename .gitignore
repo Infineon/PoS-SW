@@ -22,3 +22,4 @@
 # Ensure "Settings/" directory is tracked
 !Settings/
 !Settings/Updater.esav
+!Settings/DD_Matrix.esav
