@@ -23,3 +23,9 @@
 !Settings/
 !Settings/Updater.esav
 !Settings/DD_Matrix.esav
+
+# Project File is tracked
+!Project/
+!Project/errors
+!Project/errors/English
+!Project/errors/English/QMH-errors.txt

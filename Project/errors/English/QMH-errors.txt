@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<nidocument>
+<nicomment>
+
+<nifamily familyname="ILL_ERR_LIST" displayname="QMH SW">
+</nifamily>
+</nicomment>
+<nierror code="5000">
+The saved pHandle is not valid, unplug usb cable.
+</nierror>
+<nierror code="5001">
+Unknown Scope was selected
+</nierror>
+<nierror code="5002">
+State does not equal Var source : %s
+</nierror>
+<nierror code="5003">
+Empty Test Vector
+</nierror>
+<nierror code="5004">
+Test Vector: %s is empty
+</nierror>
+<nierror code="5005">
+Sensata:: Hearbeat was not recevied
+</nierror>
+<nierror code="5006">
+Row %s is out of range. Row range is 0~40.
+</nierror>
+<nierror code="5007">
+State not equal to Data, Queue is not Created
+</nierror>
+<nierror code="5008">
+Boost VDDIO is not Supported in A Samples
+</nierror>
+<nierror code="5009">
+Boost VDDIO is only possible with External power supply
+</nierror>
+<nierror code="5010">
+Function %s is not defined
+</nierror>
+<nierror code="5011">
+Option %s is not defined
+</nierror>
+<nierror code="5012">
+python script error [%s]
+</nierror>
+<nierror code="5013">
+In [%s] data is not valid.
+</nierror>
+<nierror code="5014">
+Variable [%s] is not declared
+</nierror>
+<nierror code="5015">
+This header name [%s] is not in the header list
+</nierror>
+<nierror code="5016">
+Selcted Device [%s] is not defined, Device selection needs to be formatted like this "MxILL0/1".
+</nierror>
+<nierror code="5017">
+Outout Pin [%s] is not valid
+</nierror>
+<nierror code="5018">
+Output Pin  [%s] format is not valid, you can use absoulte pin name "Mx_ILLx_CS" or use Static(High,'CS',Mx_ILLx)
+</nierror>
+<nierror code="5019">
+Limit format [%s] is not correct. Limit is sould formate as [lowelimit;upperlimit]
+</nierror>
+<nierror code="5020">
+
+</nierror>
+<nierror code="5050">
+Powermeter mesurment didn't take place
+</nierror>
+<nierror code="5051">
+Powermeter command [%s] is out of range range is (%s:%s), input is(%s)
+</nierror>
+<nierror code="5052">
+Powermeter command [%s] is not defined
+</nierror>
+<nierror code="5053">
+Powermeter command [%s] is expecting any [%s] sepearted array array with length [%s]. Given [%s]
+</nierror>
+<nierror code="5100">
+The digital card table length does not equal DIOs number
+</nierror>
+<nierror code="5101">
+Targeted time delay is out of range
+</nierror>
+<nierror code="5102">
+State does not equal Var source : %s
+</nierror>
+<nierror code="5103">
+Empty Test Vector
+</nierror>
+<nierror code="5104">
+Test Vector: %s is empty
+</nierror>
+<nierror code="5105">
+Sensata:: Hearbeat was not recevied
+</nierror>
+<nierror code="5107">
+State not equal to Data, Queue is not Created
+</nierror>
+<nierror code="5108">
+Boost VDDIO is not Supported in A Samples
+</nierror>
+<nierror code="5109">
+Boost VDDIO is only possible with External power supply
+</nierror>
+<nierror code="5110">
+Command [%s] is not defined as a valid spi cmd.
+</nierror>
+<nierror code="5111">
+Command [%s] is not defined as a valid ams spi cmd.
+</nierror>
+<nierror code="5200">
+Undifined Module [%s]
+</nierror>
+<nierror code="5201">
+Undefined State [%s]
+</nierror>
+<nierror code="5300">
+AmsSatC API error [%s]
+</nierror>
+<nierror code="5400">
+The child class %s can't be found within the parent class %s.
+</nierror>
+<nierror code="5431">
+PI Error [%s]
+</nierror>
+<nierror code="5432">
+Error %s cannot be found.
+</nierror>
+<nierror code="5500">
+The row range must be even.
+</nierror>
+<nierror code="5501">
+The duty cycle is bigger than %s
+</nierror>
+<nierror code="5600">
+Parameter [%s] is not valid
+</nierror>
+<nierror code="5601">
+AS5x7y Dll error [%s] is not defined
+</nierror>
+<nierror code="5602">
+Reset method is not supported/implemented.
+</nierror>
+<nierror code="6000">
+Input Voltage is larger than the power supply limit
+</nierror>
+<nierror code="6001">
+Input Current is larger than the power supply limit
+</nierror>
+<nierror code="6002">
+Input Voltage and Current are larger than the power supply limit
+</nierror>
+<nierror code="6003">
+Duplicated Name %s
+</nierror>
+<nierror code="6004">
+Duplicated Channel for the same REF %s
+</nierror>
+<nierror code="6005">
+Code for power supply model/brand [%s] is not implemented
+</nierror>
+<nierror code="6006">
+Power Supplies with Refs can't be found
+</nierror>
+<nierror code="6010">
+RPI USB Connection lost
+</nierror>
+<nierror code="6011">
+Engine option [%s] is not defined
+</nierror>
+<nierror code="6012">
+This mode [%s] cannot run with the current FPGA FW [%0.2f]. An update to version [%0.2f] or higher is required.
+</nierror>
+<nierror code="6100">
+NI845X this voltage Level [%2.2f v] is not supported
+</nierror>
+<nierror code="6150">
+SD4Yv02 Error [%s]
+</nierror>
+<nierror code="6151">
+SD4Yv01 Error [%s]
+</nierror>
+<nierror code="6152">
+Qudrant mode is only available for 12Bit mode.
+</nierror>
+<nierror code="6153">
+Rolling Counter is not available for P16 without Error Bit
+</nierror>
+<nierror code="6154">
+Sensor is in communication mode.
+</nierror>
+<nierror code="6155">
+Sensor is in functional mode.
+</nierror>
+</nidocument>
